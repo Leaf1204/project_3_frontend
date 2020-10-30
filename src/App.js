@@ -130,7 +130,7 @@ const deleteOutreach = (event) => {
             {/* USER HOME PAGE */}
             <Route
               exact
-              path="/userHomepage"
+              path="/auth/userHomepage"
               render={(rp) =>
                 <UserHomePage {...rp}  outreach={outreach} handleSubmit={handleCreate}  selectOutreach={selectOutreach} deleteOutreach={deleteOutreach} />
               }
