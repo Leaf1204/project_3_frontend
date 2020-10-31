@@ -15,7 +15,7 @@ const Home = (props) => {
   return (
     <>
     <header className="navbar">
-      <nav>
+      <nav className="navbar2">
       <span><img src="https://i.imgur.com/SeNYDJ9.png"></img></span>
         <Link to="/">
           <p>Home</p>
